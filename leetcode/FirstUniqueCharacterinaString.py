@@ -21,5 +21,4 @@ class Solution:
         if not d_keys:
             return -1
 
-        result = d_keys[0]
-        return s.index(result)
+        return s.index(d_keys[0])
